@@ -1,0 +1,13 @@
+# Requirements pour le projet ANIP Challenge
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+keras
+opencv-python
+Pillow
+torch
+torchvision
+pytesseract
