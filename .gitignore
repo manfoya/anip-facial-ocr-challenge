@@ -1,0 +1,62 @@
+# Environnement virtuel
+venv/
+
+# Données
+data/
+dataset_tache_1/
+dataset_tache_2/
+dataset_tache_3/
+
+# Fichiers de cache et temporaires
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers de configuration de l'IDE
+.vscode/
+.idea/
+
+# Fichiers de soumission et notebooks exportés
+submissions/
+*.html
+```
+**Explication :**
+- **`venv/`**: Ignore l'environnement virtuel Python.
+- **`data/`, `dataset_tache_*`**: Ignore tous les dossiers de données.
+- **`__pycache__/`, `.ipynb_checkpoints/`**: Ignore les fichiers de cache générés par Python et Jupyter.
+- **`.vscode/`**: Ignore les paramètres spécifiques à votre éditeur.
+- **`submissions/`**: Ignore le dossier où nous générerons les résultats, car il peut être recréé à tout moment.
+- **`*.html`**: Ignore les versions HTML des notebooks.
+- Le reste ignore les fichiers compilés Python.
+
+Maintenant, je mets à jour votre fichier `requirements.txt` avec les bonnes dépendances pour nos tâches.
+- **Ajout** : `deepface` (reconnaissance faciale), `ipykernel` (lien avec le notebook).
+- **Remplacement** : `opencv-python` par `opencv-python-headless`.
+- **Suppression** : `keras`, `torch`, `torchvision` pour l'instant afin de se concentrer sur `tensorflow` qui est le backend par défaut de `deepface` et éviter de surcharger l'environnement. Nous pourrons les rajouter plus tard si nécessaire.
+- **Conservation** : `pytesseract` pour la tâche d'OCR.
+
+Voici le contenu que je vous propose :
+```pip-requirements
+# --- Bases pour l'analyse de données ---
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+# --- Tâche 1 : Reconnaissance Faciale ---
+deepface
+tensorflow
+opencv-python-headless
+Pillow
+
+# --- Tâche 2 : OCR ---
+pytesseract
+
+# --- Intégration Jupyter Notebook ---
+ipykernel
+```
+
+Je modifie le fichier `requirements.txt`.

@@ -1,13 +1,18 @@
-# Requirements pour le projet ANIP Challenge
+# --- Bases pour l'analyse de données ---
 numpy
 pandas
 matplotlib
 seaborn
 scikit-learn
+
+# --- Tâche 1 : Reconnaissance Faciale ---
+deepface
 tensorflow
-keras
-opencv-python
+opencv-python-headless
 Pillow
-torch
-torchvision
+
+# --- Tâche 2 : OCR ---
 pytesseract
+
+# --- Intégration Jupyter Notebook ---
+ipykernel
