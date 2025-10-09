@@ -46,12 +46,21 @@ anip-challenge/
 ### Tâche 3 : Détection de Fraude OCR
 - **Objectif :** Détecter les fraudes dans les documents via OCR
 - **Notebook :** `notebooks/3_ocr_fraud_detection.ipynb`
+- **Status :** ✅ Notebook réorganisé pour exécution séquentielle (voir [REORGANIZATION_SUMMARY.md](REORGANIZATION_SUMMARY.md))
+
+> **Note :** Le notebook Tâche 3 a été réorganisé pour permettre une exécution séquentielle complète avec "Run All". Consultez [EXECUTION_FLOW.md](EXECUTION_FLOW.md) pour le diagramme de flux d'exécution.
 
 ## Installation
 
 ```bash
 pip install -r requirements.txt
 ```
+
+## Documentation
+
+- **[REORGANIZATION_SUMMARY.md](REORGANIZATION_SUMMARY.md)** - Résumé détaillé de la réorganisation du notebook Tâche 3
+- **[EXECUTION_FLOW.md](EXECUTION_FLOW.md)** - Diagramme de flux d'exécution du notebook
+- **[COMPLETION_SUMMARY.md](COMPLETION_SUMMARY.md)** - Résumé de la tâche complétée
 
 ## Scores
 
