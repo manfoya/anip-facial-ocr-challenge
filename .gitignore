@@ -22,6 +22,9 @@ __pycache__/
 # Fichiers de soumission et notebooks exportés
 submissions/
 *.html
+
+# Backup files
+*.backup
 ```
 **Explication :**
 - **`venv/`**: Ignore l'environnement virtuel Python.
